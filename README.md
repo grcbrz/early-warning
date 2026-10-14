@@ -1,4 +1,4 @@
-# congo-ews: Congo Basin forest early-warning system
+# Congo Basin forest early-warning system
 
 Forecasts which ~28 km forest cells in the Congo Basin are likely to have a high tree-cover-loss year next year,
 tracks a critical-slowing-down resilience indicator (NDVI lag-1 autocorrelation, after Boulton et al. 2022), and
@@ -54,7 +54,7 @@ curl -X POST localhost:8000/plot-check -H 'content-type: application/json' -d \
 - Label prevalence shifts from ~4 % to ~20 % after 2012 (real increase plus improved Hansen detection).
 
 ## Design decisions
-- **Why NDVI, not Sentinel-1 radar.** Radar sees through cloud and is what EO job postings ask for, but the
+- **Why NDVI, not Sentinel-1 radar.** Radar sees through cloud, but the
   resilience question needs a ≥ 20-year monthly record (S1 starts 2014, and S1-B's failure left a 2021–24 gap
   over Africa), and basin-scale S1 at 10 m is terabytes with no unauthenticated source reachable from this build.
   S1 change detection is the natural next module for plot-level `/plot-check`, where it would replace annual
