@@ -1,0 +1,135 @@
+{
+  "current_year": 2024,
+  "vs_training": {
+    "reference_years": [
+      2005,
+      2016
+    ],
+    "thresholds": {
+      "warn": 0.1,
+      "alert": 0.25
+    },
+    "features": {
+      "loss_t": {
+        "psi": 0.2913,
+        "status": "alert"
+      },
+      "loss_t1": {
+        "psi": 0.2961,
+        "status": "alert"
+      },
+      "loss_t2": {
+        "psi": 0.2795,
+        "status": "alert"
+      },
+      "cum_loss": {
+        "psi": 0.8559,
+        "status": "alert"
+      },
+      "forest_remaining": {
+        "psi": 0.1922,
+        "status": "warn"
+      },
+      "neighbour_loss": {
+        "psi": 0.4581,
+        "status": "alert"
+      },
+      "ar1": {
+        "psi": 0.0715,
+        "status": "ok"
+      },
+      "variance": {
+        "psi": 0.9247,
+        "status": "alert"
+      },
+      "ar1_tau": {
+        "psi": 2.8568,
+        "status": "alert"
+      },
+      "ndvi_anom": {
+        "psi": 0.7624,
+        "status": "alert"
+      },
+      "straddles_break": {
+        "psi": 0.0,
+        "status": "ok"
+      },
+      "precip_anom": {
+        "psi": 1.5443,
+        "status": "alert"
+      },
+      "mcwd_anom": {
+        "psi": 0.9612,
+        "status": "alert"
+      }
+    },
+    "n_alert": 10,
+    "n_warn": 1
+  },
+  "vs_recent": {
+    "reference_years": [
+      2021,
+      2023
+    ],
+    "thresholds": {
+      "warn": 0.1,
+      "alert": 0.25
+    },
+    "features": {
+      "loss_t": {
+        "psi": 0.0134,
+        "status": "ok"
+      },
+      "loss_t1": {
+        "psi": 0.0047,
+        "status": "ok"
+      },
+      "loss_t2": {
+        "psi": 0.0023,
+        "status": "ok"
+      },
+      "cum_loss": {
+        "psi": 0.0129,
+        "status": "ok"
+      },
+      "forest_remaining": {
+        "psi": 0.0036,
+        "status": "ok"
+      },
+      "neighbour_loss": {
+        "psi": 0.0264,
+        "status": "ok"
+      },
+      "ar1": {
+        "psi": 0.0412,
+        "status": "ok"
+      },
+      "variance": {
+        "psi": 3.2702,
+        "status": "alert"
+      },
+      "ar1_tau": {
+        "psi": 0.0462,
+        "status": "ok"
+      },
+      "ndvi_anom": {
+        "psi": 3.1985,
+        "status": "alert"
+      },
+      "straddles_break": {
+        "psi": 0.0,
+        "status": "ok"
+      },
+      "precip_anom": {
+        "psi": 0.4316,
+        "status": "alert"
+      },
+      "mcwd_anom": {
+        "psi": 0.2052,
+        "status": "warn"
+      }
+    },
+    "n_alert": 3,
+    "n_warn": 1
+  }
+}

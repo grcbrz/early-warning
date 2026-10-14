@@ -1,0 +1,95 @@
+{
+  "ndvi": {
+    "n_months": 300,
+    "missing_months": [],
+    "valid_share_min": 0.8764778645833333,
+    "valid_share_mean": 0.8801129123263888,
+    "value_min": -0.09999999403953552,
+    "value_max": 1.0,
+    "sensors_by_year": {
+      "2001": [
+        "AVHRR"
+      ],
+      "2002": [
+        "AVHRR"
+      ],
+      "2003": [
+        "AVHRR"
+      ],
+      "2004": [
+        "AVHRR"
+      ],
+      "2005": [
+        "AVHRR"
+      ],
+      "2006": [
+        "AVHRR"
+      ],
+      "2007": [
+        "AVHRR"
+      ],
+      "2008": [
+        "AVHRR"
+      ],
+      "2009": [
+        "AVHRR"
+      ],
+      "2010": [
+        "AVHRR"
+      ],
+      "2011": [
+        "AVHRR"
+      ],
+      "2012": [
+        "AVHRR"
+      ],
+      "2013": [
+        "AVHRR"
+      ],
+      "2014": [
+        "VIIRS-S-NPP"
+      ],
+      "2015": [
+        "VIIRS-S-NPP"
+      ],
+      "2016": [
+        "VIIRS-S-NPP"
+      ],
+      "2017": [
+        "VIIRS-S-NPP"
+      ],
+      "2018": [
+        "VIIRS-S-NPP"
+      ],
+      "2019": [
+        "VIIRS-S-NPP"
+      ],
+      "2020": [
+        "VIIRS-S-NPP"
+      ],
+      "2021": [
+        "VIIRS-S-NPP"
+      ],
+      "2022": [
+        "VIIRS-S-NPP"
+      ],
+      "2023": [
+        "VIIRS-NOAA-20"
+      ],
+      "2024": [
+        "VIIRS-NOAA-20"
+      ],
+      "2025": [
+        "VIIRS-NOAA-20"
+      ]
+    }
+  },
+  "precip": {
+    "n_months": 300,
+    "missing_months": [],
+    "valid_share_min": 1.0,
+    "valid_share_mean": 1.0,
+    "value_min": 0.0,
+    "value_max": 834.9288940429688
+  }
+}
