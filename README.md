@@ -62,6 +62,18 @@ curl -X POST localhost:8000/plot-check -H 'content-type: application/json' -d \
 - **Why 0.25°.** Matches PERSIANN; gives 25 × 25 NDVI pixels per cell to beat cloud noise.
 - **Why PR-AUC and precision@10 %.** Positives are rare in training, and field capacity is a fixed share of cells.
 
+## Data & licences
+Code: Apache License 2.0 ([LICENSE](LICENSE)); attributions in [NOTICE](NOTICE).
+
+| Dataset | Licence / terms | Cite |
+|---|---|---|
+| Hansen/UMD Global Forest Change v1.12 | CC BY 4.0 | Hansen et al. 2013, *Science* 342:850 |
+| NOAA CDR NDVI (AVHRR, VIIRS) | NOAA open data | NOAA NCEI CDR program |
+| PERSIANN-CDR | NOAA open data | Ashouri et al. 2015, *BAMS* 96:69 |
+
+The committed `data/processed/` and `artifacts/` files are derivatives: Hansen loss and tree cover aggregated to
+0.25° cells and transformed into annual features. Raw data is not redistributed.
+
 ## Limitations
 No published tipping threshold exists for the Congo and none is estimated here. NDVI saturates over dense
 canopy (vegetation optical depth is the upgrade). Hansen "loss" ≠ EUDR "deforestation". No fire, roads or
