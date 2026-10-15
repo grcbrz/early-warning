@@ -9,3 +9,5 @@ __pycache__/
 .python-version
 tests/.DS_Store
 .env
+build/
+.coverage

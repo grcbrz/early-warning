@@ -1,0 +1,20 @@
+congo-ews: Congo Basin forest early-warning system
+Copyright 2026 Grace Braz
+
+Licensed under the Apache License, Version 2.0 (see LICENSE).
+
+This repository contains files derived from third-party data:
+data/processed/panel.parquet, artifacts/predictions.parquet and artifacts/model.joblib
+are built from the datasets below, which were aggregated to a 0.25-degree grid and
+transformed into annual features. Raw data is not redistributed; `make data` downloads it.
+
+- Hansen/UMD/Google/USGS/NASA Global Forest Change 2000-2024 (v1.12).
+  Licensed under Creative Commons Attribution 4.0 International (CC BY 4.0).
+  Hansen, M. C. et al. (2013). High-Resolution Global Maps of 21st-Century Forest
+  Cover Change. Science 342, 850-853. https://doi.org/10.1126/science.1244693
+- NOAA Climate Data Record (CDR) of AVHRR and VIIRS Normalized Difference Vegetation
+  Index, NOAA National Centers for Environmental Information. NOAA open data.
+- PERSIANN-CDR precipitation, NOAA National Centers for Environmental Information.
+  Ashouri, H. et al. (2015). PERSIANN-CDR: Daily Precipitation Climate Data Record from
+  Multisatellite Observations for Hydrological and Climate Studies. Bull. Amer. Meteor.
+  Soc. 96, 69-83. https://doi.org/10.1175/BAMS-D-13-00068.1
